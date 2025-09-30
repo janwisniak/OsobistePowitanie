@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">zasoby w java</string>
+    <string name="login_text">Login: </string>
+    <string name="haslo_text">Hasło: </string>
+    <string name="login_hint">Podaj login:</string>
+    <string name="haslo_hint">Podaj hasło:</string>
+    <string name="error_message">Wystąpił nieoczekiwany błąd.</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:text="@string/login_text"
+            style="@style/HeaderTextStyle"/>
+
+        <EditText
+            android:hint="@string/login_hint"
+            android:padding="@dimen/padding"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/haslo_text"
+            style="@style/HeaderTextStyle"/>
+
+        <EditText
+            android:hint="@string/haslo_hint"
+            android:inputType="textPassword"
+            android:padding="@dimen/padding"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:text="Zarerestruj"/>
+
+        <Button
+            android:text="Anuluj"/>
+    </TableRow>
+
+
+</TableLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="textSize">22sp</dimen>
+    <dimen name="marginBottom">8dp</dimen>
+</resources>
